@@ -1,6 +1,267 @@
-.env
+# =============================================================================
+# 완전한 .gitignore 파일 - 모든 불필요한 파일 제외
+# =============================================================================
+
+# ===============================
+# 가상환경 (Virtual Environments)
+# ===============================
 dongrae_env/
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+
+# ===============================
+# 환경변수 및 API 키
+# ===============================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+config.ini
+secrets.json
+api_keys.txt
+
+# ===============================
+# Python 관련
+# ===============================
 __pycache__/
-*.pyc
-*.csv
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# ===============================
+# 데이터 파일들
+# ===============================
+# *.csv
 *.json
+*.xlsx
+*.xls
+*.pickle
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.tsv
+*.dat
+*.log
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+*.ipynb
+
+# ===============================
+# IDE 및 에디터
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===============================
+# 운영체제 파일
+# ===============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===============================
+# 모델 및 대용량 파일
+# ===============================
+*.dylib
+*.so.*
+*.dll
+*.bin
+*.model
+*.ckpt
+*.pth
+*.weights
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ===============================
+# 로그 및 캐시 파일
+# ===============================
+*.log
+*.out
+*.err
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ===============================
+# 임시 파일
+# ===============================
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+*.orig
+*.rej
+.#*
+#*#
+
+# ===============================
+# 문서 및 미디어 파일
+# ===============================
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+*.avi
+*.mov
+
+# ===============================
+# 패키지 관리
+# ===============================
+Pipfile.lock
+poetry.lock
+requirements-dev.txt
+.pip-cache/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================
+# 웹 관련
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# 기타 개발 도구
+# ===============================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# ===============================
+# 특정 프로젝트 파일들
+# ===============================
+# 생성된 프롬프트 파일들
+dongrae_*.csv
+dongrae_*.json
+prompt_evaluation_results_*.csv
+*_converted_*.csv
+*_converted.csv
+*_massive_*.json
+*_clean_*.csv
+
+# 검수 결과 파일들
+evaluation_*.csv
+grader_*.json
+results_*.xlsx
+
+# 백업 파일들
+backup_*/
+*_backup/
+*.backup
+
+# ===============================
+# 시스템 특화 (macOS)
+# ===============================
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ===============================
+# 시스템 특화 (Windows)
+# ===============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# ===============================
+# 시스템 특화 (Linux)
+# ===============================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
