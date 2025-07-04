@@ -1,4 +1,3 @@
-# 법무법인 동래 단순 질의 생성 시스템 (괄호 제거 버전)
 from typing import Dict, List, Tuple
 import json
 import random
@@ -68,77 +67,78 @@ class DongraeTemplateGenerator:
     def __init__(self):
         self.config = TemplateConfig()
         
-        # ✅ 괄호 없는 자연스러운 템플릿으로 수정
+        # ✅ 정보 밀도 향상을 위한 키워드 강화 템플릿
         self.templates = {
             ("쉬움", "정보조회"): [
-                "{region} {practice_area} 변호사 {metric}가 보통 얼마인가요?",
-                "{region}에서 {practice_area} 전문 로펌을 어디서 찾을 수 있나요?",
-                "{practice_area} 사건의 {metric}는 대략 어느 정도인가요?",
-                "{region} 지역 {practice_area} 전문가를 찾고 있어요",
-                "{practice_area} 관련 {metric} 정보가 필요해요"
+                "{region}지방법원 관할 {practice_area} 전문 변호사의 {metric} 평균 비용이 궁금해요",
+                "{region} {practice_area} 분야 법무법인 동래의 {metric} 상담 서비스가 어떻게 되나요",
+                "{practice_area} 사건 {metric} 기준과 {region} 법조계 현황을 알고 싶어요",
+                "{region} 지역 {practice_area} 전문 변호사 {metric} 정보와 대한변협 인증 자료가 필요해요",
+                "{practice_area} 관련 {metric} 통계와 {region} 법원 관할 절차를 설명해주세요"
             ],
             ("보통", "정보조회"): [
-                "{time_span} 기준 {region} {practice_area} 분야의 {metric}를 알려줘",
-                "{region}에서 {practice_area} 전문 변호사의 {metric}와 {source_hint} 정보를 종합해서 설명해주세요",
-                "{practice_area} 관련 {metric} 통계를 {time_span} 기간으로 정리해주세요",
-                "{time_span} 동안 {region} {practice_area} 변호사 {metric} 평균은?",
-                "{region} {practice_area} 분야 {metric} 현황을 {time_span} 기준으로 알려줘"
+                "{time_span} 기준 {region}지방법원 관할 {practice_area} 전문 변호사의 {metric} 통계와 {source_hint} 인증 자료를 분석해주세요",
+                "{region} {practice_area} 분야 법무법인의 {metric} 현황과 판례 검토를 통한 {source_hint} 데이터 분석이 필요합니다",
+                "{practice_area} 사건의 {metric} 기준과 {region} 법조계 특성을 고려한 {source_hint} 통계 정보를 제공해주세요",
+                "{time_span} 동안 {region} {practice_area} 변호사 {metric} 평균과 {source_hint} 공식 발표 자료를 종합해주세요",
+                "{region} {practice_area} 분야 {metric} 현황을 {time_span} 기준 {source_hint} 데이터로 상세 분석해주세요"
             ],
             ("어려움", "정보조회"): [
-                "{source_hint} 자료에 따르면, {time_span} {region} {practice_area} 로펌의 {metric}와 성장 전망을 설명해 주세요",
-                "{practice_area} 로펌이 제시하는 {metric} + {source_hint}와 함께 비교해 주세요",
-                "{time_span} 동안 {region} {practice_area} 시장의 {metric}별 세부 분석과 {source_hint} 기반 예측을 제공해주세요",
-                "{source_hint} 데이터로 분석한 {region} {practice_area} 분야 {metric} 트렌드를 설명해주세요",
-                "{time_span} 기간 {region} {practice_area} 로펌들의 {metric} 경쟁력을 {source_hint} 기준으로 평가해주세요"
+                "{source_hint} 공식 발표 자료에 따른 {time_span} {region}지방법원 관할 {practice_area} 로펌의 {metric} 통계와 시장 성장 전망을 종합 분석해주세요",
+                "{practice_area} 전문 법무법인이 제시하는 {metric} 체계와 {source_hint} 인증 기준을 {region} 법조계 특성과 함께 비교 분석해주세요",
+                "{time_span} 기간 {region} {practice_area} 법무 시장의 {metric} 세부 분석과 {source_hint} 기반 향후 전망을 제공해주세요",
+                "{source_hint} 데이터로 분석한 {region}지방법원 {practice_area} 분야 {metric} 트렌드와 법무법인 동래의 경쟁력을 설명해주세요",
+                "{time_span} 기간 {region} {practice_area} 로펌들의 {metric} 경쟁력을 {source_hint} 공식 통계와 판례 분석으로 평가해주세요"
             ],
             ("쉬움", "탐색비교"): [
-                "{practice_area} 전문 변호사를 어디서 찾을 수 있나요?",
-                "{region}에서 {practice_area} 전문 로펌 리스트를 확인할 수 있는 공식 통계는?",
-                "{practice_area} 변호사 선택할 때 {metric} 기준으로 뭘 봐야 하나요?",
-                "{region} {practice_area} 로펌 추천해주세요",
-                "{practice_area} 분야 좋은 변호사를 어떻게 찾나요?"
+                "{practice_area} 전문 변호사를 {region}지방법원 관할 지역에서 어떻게 찾을 수 있나요",
+                "{region} {practice_area} 전문 로펌 리스트를 확인할 수 있는 대한변협 공식 통계는 어디서 보나요",
+                "{practice_area} 변호사 선택할 때 {metric} 기준과 {region} 법조계 특성을 어떻게 고려해야 하나요",
+                "{region} {practice_area} 로펌 추천과 법무법인 동래 상담 서비스를 비교해주세요",
+                "{practice_area} 분야 우수한 변호사를 {region} 지역에서 찾는 방법과 기준을 알려주세요"
             ],
             ("보통", "탐색비교"): [
-                "{region}에서 {practice_area} 전문 로펌 리스트를 확인할 수 있는 공식 통계는?",
-                "{time_span} 기간 {region} {practice_area} 상위 10개 로펌을 {metric} 기준으로 정리해주세요",
-                "{practice_area} 분야에서 {metric}가 우수한 부산 지역 법무법인을 추천해주세요",
-                "{region} {practice_area} 로펌들의 {metric} 비교가 필요해요",
-                "{time_span} 동안 {region} {practice_area} 분야 로펌 순위를 알려주세요"
+                "{region}지방법원 관할 {practice_area} 전문 로펌 리스트를 확인할 수 있는 {source_hint} 공식 통계 자료는 어디서 구할 수 있나요",
+                "{time_span} 기간 {region} {practice_area} 상위 10개 로펌을 {metric} 기준과 {source_hint} 평가로 정리해주세요",
+                "{practice_area} 분야에서 {metric}가 우수한 {region} 지역 법무법인을 {source_hint} 인증 기준으로 추천해주세요",
+                "{region} {practice_area} 로펌들의 {metric} 비교와 법무법인 동래의 차별화 포인트를 분석해주세요",
+                "{time_span} 동안 {region} {practice_area} 분야 로펌 순위를 {source_hint} 공식 자료로 알려주세요"
             ],
             ("어려움", "탐색비교"): [
-                "{time_span} 동안 {region} {practice_area} 사건건수 상위 10개 로펌을 제시한 {source_hint} 보고서를 알려주세요",
-                "{practice_area} 로펌의 {metric} 비교분석과 {region} 지역 특성을 반영한 추천 리스트를 작성해주세요",
-                "{source_hint} 데이터를 기반으로 {region} {practice_area} 시장의 경쟁구도와 주요 플레이어들의 {metric} 분석을 제공해주세요",
-                "{time_span} 기간 {source_hint}가 발표한 {region} {practice_area} 로펌 {metric} 랭킹을 분석해주세요",
-                "{region} {practice_area} 시장에서 {metric} 기준 상위 로펌들의 경쟁력을 {source_hint} 자료로 비교해주세요"
+                "{time_span} 동안 {region}지방법원 관할 {practice_area} 사건 처리 상위 10개 로펌을 제시한 {source_hint} 공식 보고서와 통계 자료를 분석해주세요",
+                "{practice_area} 전문 로펌의 {metric} 비교분석과 {region} 지역 법조계 특성을 반영한 맞춤형 추천 리스트를 작성해주세요",
+                "{source_hint} 공식 데이터를 기반으로 {region} {practice_area} 법무 시장의 경쟁구도와 주요 플레이어들의 {metric} 세부 분석을 제공해주세요",
+                "{time_span} 기간 {source_hint}가 발표한 {region} {practice_area} 로펌 {metric} 공식 랭킹과 법무법인 동래의 포지셔닝을 분석해주세요",
+                "{region}지방법원 {practice_area} 시장에서 {metric} 기준 상위 로펌들의 경쟁력을 {source_hint} 자료와 판례 분석으로 비교해주세요"
             ],
             ("쉬움", "거래상담"): [
-                "{region} {practice_area} 사건 변호사 상담료는 대략 얼마인가요?",
-                "{practice_area} 관련해서 법무법인 동래에 상담받을 수 있나요?",
-                "{region}에서 {practice_area} 사건 처리 기간은 보통 어느 정도인가요?",
-                "{practice_area} 사건 {metric}가 궁금해요",
-                "{region}에서 {practice_area} 변호사 찾고 있어요"
+                "{region} {practice_area} 사건 전문 변호사 상담료와 법무법인 동래 서비스 비용이 궁금해요",
+                "{practice_area} 관련해서 법무법인 동래에 상담받을 수 있는 절차와 비용을 알려주세요",
+                "{region}지방법원 관할 {practice_area} 사건 처리 기간과 변호사 {metric}이 어느 정도인가요",
+                "{practice_area} 사건 {metric}와 법무법인 동래의 29년 업력 기반 전문성이 궁금해요",
+                "{region}에서 {practice_area} 전문 변호사 찾고 합리적 수임료 상담받고 싶어요"
             ],
             ("보통", "거래상담"): [
-                "{time_span} 기준 {region} {practice_area} 변호사 {metric} 평균은?",
-                "법무법인 동래에서 {practice_area} 사건의 {metric}와 서비스 내용을 상담받고 싶습니다",
-                "{practice_area} 사건의 {metric} 기준과 {region} 지역 특성을 고려한 변호사 선택 가이드를 제공해주세요",
-                "{region} {practice_area} 전문 변호사 {metric} 상담받고 싶어요",
-                "{practice_area} 관련 {metric}와 절차를 {region} 기준으로 설명해주세요"
+                "{time_span} 기준 {region} {practice_area} 변호사 {metric} 평균과 법무법인 동래의 원스톱 서비스를 비교해주세요",
+                "법무법인 동래에서 {practice_area} 사건의 {metric}와 29년 업력 기반 전문 서비스 내용을 상담받고 싶습니다",
+                "{practice_area} 사건의 {metric} 기준과 {region} 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요",
+                "{region} {practice_area} 전문 변호사 {metric} 상담과 법무법인 동래의 Busan Legal First-Mover 서비스를 받고 싶어요",
+                "{practice_area} 관련 {metric}와 절차를 {region} 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요"
             ],
             ("어려움", "거래상담"): [
-                "{practice_area} 로펌이 제시하는 고정 + 성과보수 요율 사례를 {source_hint}와 함께 비교해 주세요",
-                "복잡한 {practice_area} 사건에서 법무법인 동래의 {metric} 우위와 차별화 포인트를 구체적으로 설명해주세요",
-                "{time_span} 기간 {region} {practice_area} 시장 동향을 반영한 법무법인 동래의 서비스 포트폴리오와 {metric} 경쟁력을 분석해주세요",
-                "{source_hint} 기준으로 {region} {practice_area} 분야 {metric} 최적화 전략을 제안해주세요",
-                "복합적인 {practice_area} 사건에서 {region} 지역 {metric} 경쟁력을 {time_span} 트렌드와 함께 분석해주세요"
+                "{practice_area} 전문 로펌이 제시하는 착수금과 성공보수 체계를 {source_hint} 기준과 함께 비교하고 법무법인 동래 상담을 받고 싶어요",
+                "복잡한 {practice_area} 사건에서 법무법인 동래의 {metric} 우위와 29년 업력 기반 차별화 포인트를 구체적으로 설명하고 상담 절차도 안내해주세요",
+                "{time_span} 기간 {region} {practice_area} 시장 동향을 반영한 법무법인 동래의 원스톱 서비스 포트폴리오와 {metric} 경쟁력을 분석하고 상담받고 싶어요",
+                "{source_hint} 기준으로 {region} {practice_area} 분야 {metric} 최적화 전략을 제안하고 법무법인 동래의 Busan Legal First-Mover 서비스 상담을 받고 싶어요",
+                "복합적인 {practice_area} 사건에서 {region} 지역 {metric} 경쟁력을 {time_span} 트렌드와 함께 분석하고 법무법인 동래 전문 상담을 받고 싶어요"
             ]
         }
 
     def generate_template(self, difficulty: str, intent: str, params: Dict) -> str:
         templates = self.templates.get((difficulty, intent), [])
         if not templates:
-            return f"{params['region']} {params['practice_area']} 관련 {params['metric']} 정보를 알려주세요"
+            # 기본 템플릿도 정보 밀도 강화
+            return f"{params['region']}지방법원 관할 {params['practice_area']} 전문 변호사의 {params['metric']} 정보와 법무법인 동래 상담 서비스를 알려주세요"
         
         template = random.choice(templates)
         formatted_template = template.format(
@@ -150,6 +150,68 @@ class DongraeTemplateGenerator:
         )
         
         return formatted_template
+
+# 추가로 번역투 표현 개선 함수도 강화
+def improve_prompt_naturalness(prompt: str) -> str:
+    """번역투 표현을 자연스러운 한국어로 개선하고 정보 밀도 추가"""
+    improvements = {
+        '를 알려줘요': '가 궁금해요',
+        '를 알려줘': '를 알려주세요', 
+        '를 제공해주세요': '를 설명해주세요',
+        '기준으로': '바탕으로',
+        '관련해서': '에 대해',
+        '정리해주세요': '분석해주세요',
+        '설명해 주세요': '설명해주세요',
+        '비교해 주세요': '비교해주세요'
+    }
+    
+    # 정보 밀도 추가 키워드
+    density_enhancers = {
+        '부산': '부산지방법원 관할',
+        '변호사': '전문 변호사',
+        '로펌': '법무법인',
+        '비용': '비용 체계',
+        '상담': '전문 상담'
+    }
+    
+    improved = prompt
+    
+    # 번역투 개선
+    for old, new in improvements.items():
+        improved = improved.replace(old, new)
+    
+    # 정보 밀도 강화 (이미 강화된 단어가 없는 경우만)
+    for old, new in density_enhancers.items():
+        if old in improved and new not in improved:
+            improved = improved.replace(old, new, 1)  # 첫 번째만 교체
+    
+    return improved
+
+# clean_prompt 함수도 수정
+def enhanced_clean_prompt(self, prompt: str) -> str:
+    """프롬프트에서 괄호 제거, 정리 및 정보 밀도 강화"""
+    # 1. 모든 괄호와 내용 제거
+    cleaned = re.sub(r'\([^)]*\)', '', prompt)
+    
+    # 2. 연속된 공백을 하나로 정리
+    cleaned = re.sub(r'\s+', ' ', cleaned)
+    
+    # 3. 앞뒤 공백 제거
+    cleaned = cleaned.strip()
+    
+    # 4. 번역투 표현 개선 및 정보 밀도 강화
+    cleaned = improve_prompt_naturalness(cleaned)
+    
+    # 5. 문장 끝 정리
+    if not cleaned.endswith(('?', '.', '요', '다', '까')):
+        if '?' in prompt or '궁금' in cleaned or '알려' in cleaned:
+            if not cleaned.endswith('요'):
+                cleaned += '요'
+        else:
+            if not cleaned.endswith('.'):
+                cleaned += '.'
+    
+    return cleaned
 
 class DongrageLawIntegratedSystem:
     """법무법인 동래 통합 AI 서비스 시스템 (괄호 없는 단순 질의 생성)"""
@@ -427,7 +489,7 @@ def generate_massive_clean_prompts(num_prompts: int = 1000):
     
     # ✅ CSV 파일로 저장
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    csv_filename = f"massive2_{timestamp}.csv"
+    csv_filename = f"dongrae_clean_massive_{timestamp}.csv"
     
     # CSV 저장 함수 호출
     system.export_to_csv(prompts, csv_filename)

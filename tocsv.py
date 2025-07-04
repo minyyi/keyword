@@ -72,7 +72,7 @@ def load_json_from_file(file_path):
         return None
 
 # ★★★ 여기에 실제 JSON 파일명을 입력하세요! ★★★
-JSON_FILE_NAME = 'your_file_name.json'  # 이 부분만 실제 파일명으로 바꾸세요!
+JSON_FILE_NAME = 'iovu_massive_20250704_100638.json'  # 이 부분만 실제 파일명으로 바꾸세요!
 
 # =============================================================================
 # 실제 JSON 파일을 CSV로 변환하는 메인 코드 
@@ -130,7 +130,7 @@ def load_json_from_file(file_path):
         return None
 
 # ★★★ 여기에 실제 JSON 파일명을 입력하세요! ★★★
-JSON_FILE_NAME = 'dongrae_simple_massive_20250701_180444.json'  # 실제 파일명으로 변경됨
+JSON_FILE_NAME = 'iovu_massive_20250704_100638.json'  # 실제 파일명으로 변경됨
 
 print(f"🔍 현재 작업 디렉토리: {os.getcwd()}")
 print(f"🔍 읽으려는 파일: {JSON_FILE_NAME}")
@@ -228,7 +228,6 @@ if json_data:
         print(df_from_file.iloc[:3, :5])
     
     print(f"\n📊 최종 DataFrame 정보:")
-    print(f"- 행 수: {len(df_from_file)}")
     print(f"- 열 수: {len(df_from_file.columns)}")
     print(f"- 모든 컬럼명: {list(df_from_file.columns)}")
     

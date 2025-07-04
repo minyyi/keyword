@@ -88,83 +88,83 @@ class IOVUTemplateGenerator:
         self.templates = {
             # 정보 - 쉬움
             ("쉬움", "정보"): [
-                "({country})에서 ({practice_area}) ({metric})가 보통 얼마인가요?",
-                "({country})에서 ({practice_area}) 브랜드를 어디서 찾을 수 있나요?",
-                "({practice_area})의 ({metric})는 대략 어느 정도인가요?",
-                "iOVU ({practice_area}) 제품 ({metric}) 정보 알려주세요",
-                "({practice_area}) 시장에서 ({metric}) 평균이 궁금해요"
+                "{country}에서 {practice_area} {metric}가 보통 얼마인가요?",
+                "{country}에서 {practice_area} 브랜드를 어디서 찾을 수 있나요?",
+                "{practice_area}의 {metric}는 대략 어느 정도인가요?",
+                "iOVU {practice_area} 제품 {metric} 정보 알려주세요",
+                "{practice_area} 시장에서 {metric} 평균이 궁금해요"
             ],
             
             # 정보 - 보통
             ("보통", "정보"): [
-                "({time_span}) 기준 ({country}) ({practice_area}) 분야의 ({metric})를 분석해주세요",
-                "({country})에서 ({practice_area}) 브랜드의 ({metric})와 ({source_hint}) 정보를 종합해서 설명해주세요",
-                "({practice_area}) 관련 ({metric}) 통계를 ({time_span}) 기간으로 정리해주세요",
-                "({source_hint})에서 화제가 된 ({practice_area})의 ({metric}) 트렌드는?",
-                "({time_span}) ({country}) ({practice_area}) 시장의 ({metric}) 변화 분석"
+                "{time_span} 기준 {country} {practice_area} 분야의 {metric}를 분석해주세요",
+                "{country}에서 {practice_area} 브랜드의 {metric}와 {source_hint} 정보를 종합해서 설명해주세요",
+                "{practice_area} 관련 {metric} 통계를 {time_span} 기간으로 정리해주세요",
+                "{source_hint}에서 화제가 된 {practice_area}의 {metric} 트렌드는?",
+                "{time_span} {country} {practice_area} 시장의 {metric} 변화 분석"
             ],
             
             # 정보 - 어려움
             ("어려움", "정보"): [
-                "({source_hint}) 데이터에 따르면, ({time_span}) ({country}) ({practice_area}) 브랜드의 ({metric})와 성장 전망을 분석해주세요",
-                "({practice_area}) 브랜드가 제시하는 ({metric})를 ({source_hint})와 함께 비교 분석해주세요",
-                "({time_span}) 동안 ({country}) ({practice_area}) 시장의 ({metric})별 세부 분석과 ({source_hint}) 기반 예측",
-                "글로벌 ({practice_area}) 시장에서 ({country})의 ({metric}) 경쟁력과 iOVU의 포지셔닝 전략 분석",
-                "({source_hint}) 트렌드와 ({time_span}) 시장 데이터를 결합한 ({practice_area})의 ({metric}) 예측 모델"
+                "{source_hint} 데이터에 따르면, {time_span} {country} {practice_area} 브랜드의 {metric}와 성장 전망을 분석해주세요",
+                "{practice_area} 브랜드가 제시하는 {metric}를 {source_hint}와 함께 비교 분석해주세요",
+                "{time_span} 동안 {country} {practice_area} 시장의 {metric}별 세부 분석과 {source_hint} 기반 예측",
+                "글로벌 {practice_area} 시장에서 {country}의 {metric} 경쟁력과 iOVU의 포지셔닝 전략 분석",
+                "{source_hint} 트렌드와 {time_span} 시장 데이터를 결합한 {practice_area}의 {metric} 예측 모델"
             ],
             
             # 탐색 - 쉬움
             ("쉬움", "탐색"): [
-                "({practice_area}) 제품을 어디서 찾을 수 있나요?",
-                "({country})에서 ({practice_area}) 브랜드 리스트 알려주세요",
-                "({practice_area}) 선택할 때 ({metric}) 기준으로 뭘 봐야 하나요?",
-                "iOVU 같은 ({practice_area}) 브랜드 추천해주세요",
-                "({metric})가 좋은 ({practice_area}) 브랜드는?"
+                "{practice_area} 제품을 어디서 찾을 수 있나요?",
+                "{country}에서 {practice_area} 브랜드 리스트 알려주세요",
+                "{practice_area} 선택할 때 {metric} 기준으로 뭘 봐야 하나요?",
+                "iOVU 같은 {practice_area} 브랜드 추천해주세요",
+                "{metric}가 좋은 {practice_area} 브랜드는?"
             ],
             
             # 탐색 - 보통
             ("보통", "탐색"): [
-                "({country})에서 ({practice_area}) 브랜드를 ({metric}) 기준으로 비교해주세요",
-                "({time_span}) 기간 ({country}) ({practice_area}) 상위 브랜드를 ({metric}) 기준으로 정리해주세요",
-                "({practice_area}) 분야에서 ({metric})가 우수한 브랜드를 추천해주세요",
-                "({source_hint})에서 인기 있는 ({practice_area}) 브랜드들의 ({metric}) 비교",
-                "({time_span}) ({practice_area}) 트렌드를 반영한 브랜드 추천"
+                "{country}에서 {practice_area} 브랜드를 {metric} 기준으로 비교해주세요",
+                "{time_span} 기간 {country} {practice_area} 상위 브랜드를 {metric} 기준으로 정리해주세요",
+                "{practice_area} 분야에서 {metric}가 우수한 브랜드를 추천해주세요",
+                "{source_hint}에서 인기 있는 {practice_area} 브랜드들의 {metric} 비교",
+                "{time_span} {practice_area} 트렌드를 반영한 브랜드 추천"
             ],
             
             # 탐색 - 어려움
             ("어려움", "탐색"): [
-                "({time_span}) 동안 ({country}) ({practice_area}) 시장 점유율 상위 브랜드를 ({source_hint}) 데이터로 분석해주세요",
-                "({practice_area}) 브랜드의 ({metric}) 비교분석과 ({country}) 시장 특성을 반영한 추천 리스트",
-                "({source_hint}) 데이터 기반 ({country}) ({practice_area}) 시장의 경쟁구도와 주요 브랜드들의 ({metric}) 분석",
-                "글로벌 ({practice_area}) 시장에서 ({metric}) 우위를 가진 브랜드들의 전략 분석과 iOVU 포지셔닝",
-                "({time_span}) 트렌드와 ({source_hint}) 데이터를 종합한 ({practice_area}) 브랜드 투자 가치 평가"
+                "{time_span} 동안 {country} {practice_area} 시장 점유율 상위 브랜드를 {source_hint} 데이터로 분석해주세요",
+                "{practice_area} 브랜드의 {metric} 비교분석과 {country} 시장 특성을 반영한 추천 리스트",
+                "{source_hint} 데이터 기반 {country} {practice_area} 시장의 경쟁구도와 주요 브랜드들의 {metric} 분석",
+                "글로벌 {practice_area} 시장에서 {metric} 우위를 가진 브랜드들의 전략 분석과 iOVU 포지셔닝",
+                "{time_span} 트렌드와 {source_hint} 데이터를 종합한 {practice_area} 브랜드 투자 가치 평가"
             ],
             
             # 거래 - 쉬움
             ("쉬움", "거래"): [
-                "({country}) ({practice_area}) 제품 가격은 대략 얼마인가요?",
-                "({practice_area}) 관련해서 iOVU에서 구매할 수 있나요?",
-                "({country})에서 ({practice_area}) 배송 기간은 보통 어느 정도인가요?",
-                "iOVU ({practice_area}) 제품 주문하고 싶어요",
-                "({practice_area}) 할인 혜택이 있나요?"
+                "{country} {practice_area} 제품 가격은 대략 얼마인가요?",
+                "{practice_area} 관련해서 iOVU에서 구매할 수 있나요?",
+                "{country}에서 {practice_area} 배송 기간은 보통 어느 정도인가요?",
+                "iOVU {practice_area} 제품 주문하고 싶어요",
+                "{practice_area} 할인 혜택이 있나요?"
             ],
             
             # 거래 - 보통
             ("보통", "거래"): [
-                "({time_span}) 기준 ({country}) ({practice_area}) ({metric}) 평균 가격은?",
-                "iOVU에서 ({practice_area}) 제품의 ({metric})와 서비스 내용을 상담받고 싶습니다",
-                "({practice_area}) 제품의 ({metric}) 기준과 ({country}) 배송을 고려한 구매 가이드",
-                "({source_hint})에서 추천하는 ({practice_area}) 제품 구매 전략",
-                "({metric})를 고려한 ({practice_area}) 최적 구매 옵션"
+                "{time_span} 기준 {country} {practice_area} {metric} 평균 가격은?",
+                "iOVU에서 {practice_area} 제품의 {metric}와 서비스 내용을 상담받고 싶습니다",
+                "{practice_area} 제품의 {metric} 기준과 {country} 배송을 고려한 구매 가이드",
+                "{source_hint}에서 추천하는 {practice_area} 제품 구매 전략",
+                "{metric}를 고려한 {practice_area} 최적 구매 옵션"
             ],
             
             # 거래 - 어려움
             ("어려움", "거래"): [
-                "({practice_area}) 브랜드가 제시하는 대량 구매 할인 정책을 ({source_hint})와 함께 비교해주세요",
-                "복잡한 ({practice_area}) 커스터마이징에서 iOVU의 ({metric}) 우위와 차별화 포인트",
-                "({time_span}) 기간 ({country}) ({practice_area}) 시장 동향을 반영한 iOVU의 투자 가치와 ({metric}) 경쟁력",
-                "글로벌 ({practice_area}) 시장에서 iOVU의 B2B 파트너십 전략과 ({metric}) 최적화 방안",
-                "({source_hint}) 트렌드와 ({time_span}) 시장 분석을 기반한 ({practice_area}) 장기 투자 전략"
+                "{practice_area} 브랜드가 제시하는 대량 구매 할인 정책을 {source_hint}와 함께 비교해주세요",
+                "복잡한 {practice_area} 커스터마이징에서 iOVU의 {metric} 우위와 차별화 포인트",
+                "{time_span} 기간 {country} {practice_area} 시장 동향을 반영한 iOVU의 투자 가치와 {metric} 경쟁력",
+                "글로벌 {practice_area} 시장에서 iOVU의 B2B 파트너십 전략과 {metric} 최적화 방안",
+                "{source_hint} 트렌드와 {time_span} 시장 분석을 기반한 {practice_area} 장기 투자 전략"
             ]
         }
 
@@ -397,7 +397,7 @@ def generate_massive_iovu_prompts(num_prompts: int = 1000):
     
     # 파일 저장
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"iovu_gpt4o_massive_{timestamp}.json"
+    filename = f"iovu_massive_{timestamp}.json"
     
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(prompts, f, ensure_ascii=False, indent=2)

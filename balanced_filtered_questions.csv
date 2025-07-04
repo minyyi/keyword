@@ -1,0 +1,167 @@
+﻿원본_행,질문,추출된_의도,추출된_난이도,추출된_버킷타입,검수_점수,검수_통과,검수_사유,원본_의도,원본_난이도
+614,의료헬스케어법무 사건 해결율 기준과 울산 법조계 현황을 알고 싶어요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and mentions the healthcare law context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,쉬움
+454,부울경 지역 형사법무 전문 변호사 법적정확성 정보와 대한변협 인증 자료가 필요해요,정보,쉬움,branded,0.75,통과,"The question is clear and relevant to legal services, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,쉬움
+127,환경법무 사건 법적정확성 기준과 부산 법조계 현황을 알고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,쉬움
+398,기업법무 사건 총비용 기준과 경남 법조계 현황을 알고 싶어요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,쉬움
+197,형사법무 관련 시간당비용 통계와 부울경 법원 관할 절차를 설명해주세요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks brand mention.",정보조회,쉬움
+157,부동산법무 관련 지원인력 통계와 부울경 법원 관할 절차를 설명해주세요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,쉬움
+152,기업법무 사건 법적정확성 기준과 창원 법조계 현황을 알고 싶어요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,쉬움
+850,환경법무 사건 시설규모 기준과 부산 법조계 현황을 알고 싶어요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,쉬움
+177,계약법무 사건 수임료 기준과 창원 법조계 현황을 알고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보조회,쉬움
+258,소송및분쟁해결 관련 지원인력 통계와 창원 법원 관할 절차를 설명해주세요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and mentions a specific court, but lacks a direct brand mention.",정보조회,쉬움
+482,부울경지방법원 관할 지적재산권 전문 변호사의 고객만족도 평균 비용이 궁금해요,정보,쉬움,branded,0.75,통과,"The question is clear and relevant to legal services, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,쉬움
+172,부울경 지역 조세법무 전문 변호사 시장점유율 정보와 대한변협 인증 자료가 필요해요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal services and mentions the need for specific legal information, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,쉬움
+232,기업법무 관련 시장점유율 통계와 부산해운대 법원 관할 절차를 설명해주세요,정보,쉬움,branded,0.75,통과,"The question is relevant to legal concepts and includes regional context, but it lacks a direct brand mention.",정보조회,쉬움
+637,형사법무 사건의 시간당비용 기준과 창원 법조계 특성을 고려한 부산법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+712,팬데믹이후 기준 부산지방법원 관할 소송및분쟁해결 전문 변호사의 법적정확성 통계와 법률신문 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+525,창원 개인정보보호 분야 법무법인의 전문성 현황과 판례 검토를 통한 부산지방법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+837,의료헬스케어법무 사건의 수임료 기준과 부산연제구 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant regional context.,정보조회,보통
+117,창원 노동법무 분야 법무법인의 전문인력 현황과 판례 검토를 통한 KISDI 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct mention of '동래' or 'Dongrae',정보조회,보통
+583,부산서면 지적재산권 분야 법무법인의 시간당비용 현황과 판례 검토를 통한 부산지방법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"Relevant legal inquiry with regional context, but lacks brand mention.",정보조회,보통
+813,환경법무 사건의 전문인력 기준과 부산 법조계 특성을 고려한 법무부통계 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+967,형사법무 사건의 성공보수 기준과 부산해운대 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+435,조세법무 사건의 총비용 기준과 김해 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+682,IT통신법무 사건의 사건처리속도 기준과 부산 법조계 특성을 고려한 대한변협 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+546,부산 계약법무 분야 법무법인의 고객대응품질 현황과 판례 검토를 통한 법률신문 데이터 분석이 필요합니다,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+281,형사법무 사건의 법적정확성 기준과 부산연제구 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+887,창원 부동산법무 분야 법무법인의 시간당비용 현황과 판례 검토를 통한 부산변협 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but it does not include the brand '동래' or 'Dongrae'.",정보조회,보통
+66,부울경 의료헬스케어법무 분야 법무법인의 변호사인원 현황과 판례 검토를 통한 부산법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+403,경남 부동산법무 분야 고객대응품질 현황을 최근5년 기준 대법원 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a specific region, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+999,2024년 동안 부산 소송및분쟁해결 변호사 전문성 평균과 부산지법 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the region of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+825,노동법무 사건의 해결율 기준과 부산연제구 법조계 특성을 고려한 부산지방법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+137,2025년 동안 부울경 계약법무 변호사 성공보수 평균과 부산법원 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the region, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+921,부산서면 금융법무 분야 법무법인의 고객대응품질 현황과 판례 검토를 통한 법률신문 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks brand mention of '동래' or 'Dongrae'.,정보조회,보통
+402,부산 환경법무 분야 법무법인의 지원인력 현황과 판례 검토를 통한 법무부통계 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"Relevant legal inquiry with regional context, but lacks brand mention.",정보조회,보통
+882,경남 개인정보보호 분야 법무법인의 시간당비용 현황과 판례 검토를 통한 부산법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the region, but lacks a direct brand mention.",정보조회,보통
+533,2025년 동안 부산 환경법무 변호사 착수금 평균과 대법원 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a specific region (Busan), but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+971,기업법무 사건의 전문인력 기준과 부산 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+255,창원 금융법무 분야 법무법인의 성공보수 현황과 판례 검토를 통한 법률신문 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct brand mention of '동래' or 'Dongrae'.,정보조회,보통
+626,개인정보보호 사건의 착수금 기준과 김해 법조계 특성을 고려한 KISDI 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and includes a regional context, but lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+938,부산 노동법무 분야 법무법인의 변호사인원 현황과 판례 검토를 통한 대법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct mention of '동래' or 'Dongrae',정보조회,보통
+535,부산 부동산법무 분야 법무법인의 총비용 현황과 판례 검토를 통한 부산변협 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the region, but it does not include the brand '동래' or 'Dongrae'.",정보조회,보통
+121,기업법무 사건의 고객만족도 기준과 부산서면 법조계 특성을 고려한 대법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+326,2024년 기준 부산지방법원 관할 건설인프라법무 전문 변호사의 승소율 통계와 부산지법 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+731,금융법무 사건의 서비스품질 기준과 부산연제구 법조계 특성을 고려한 대법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+576,노동법무 사건의 고객만족도 기준과 부산 법조계 특성을 고려한 부산지방법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+370,계약법무 사건의 지원인력 기준과 부산 법조계 특성을 고려한 부산지방법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a brand mention.",정보조회,보통
+563,IT통신법무 사건의 파트너수 기준과 창원 법조계 특성을 고려한 부산법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+914,최근5년 기준 부산지방법원 관할 지적재산권 전문 변호사의 법적정확성 통계와 KISDI 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a regional context, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+430,노동법무 사건의 전문인력 기준과 부산 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+570,양산 IT통신법무 분야 법무법인의 승소율 현황과 판례 검토를 통한 부산지법 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+469,계약법무 사건의 시간당비용 기준과 부산 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.9,통과,"The question is clear, relevant to legal concepts, mentions the regional context of Busan, and includes the brand '동래'.",정보조회,보통
+671,부산 환경법무 분야 법무법인의 서비스품질 현황과 판례 검토를 통한 법률신문 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct mention of '동래' or 'Dongrae'.,정보조회,보통
+681,계약법무 사건의 성공보수 기준과 부산연제구 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+547,10년추세 기준 부울경지방법원 관할 계약법무 전문 변호사의 지원인력 통계와 법률신문 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+486,부산 소송및분쟁해결 분야 법무법인의 서비스품질 현황과 판례 검토를 통한 KISDI 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+899,최근3년 기준 부산지방법원 관할 기업법무 전문 변호사의 착수금 통계와 부산법원 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal practice and mentions the regional context of Busan, but it does not include the brand '동래' or 'Dongrae'.",정보조회,보통
+594,지적재산권 사건의 전문인력 기준과 경남 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+530,10년추세 기준 부산지방법원 관할 개인정보보호 전문 변호사의 지원인력 통계와 부산지법 인증 자료를 분석해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+445,경남 계약법무 분야 법무법인의 성공보수 현황과 판례 검토를 통한 부산변협 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the region, but it does not include the brand '동래' or 'Dongrae'.",정보조회,보통
+996,부울경 형사법무 분야 법무법인의 서비스품질 현황과 판례 검토를 통한 법원행정처 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"Relevant legal inquiry with brand mention, but slightly longer than the ideal length.",정보조회,보통
+581,울산 부동산법무 분야 법무법인의 시장점유율 현황과 판례 검토를 통한 부산지법 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"Relevant legal inquiry with regional context, but lacks direct brand mention.",정보조회,보통
+680,부산 계약법무 분야 법무법인의 해결율 현황과 판례 검토를 통한 대법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal question but lacks brand mention of '동래' or 'Dongrae'.,정보조회,보통
+599,2025년 동안 부산 건설인프라법무 변호사 착수금 평균과 법률신문 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a specific region, but lacks a direct brand mention.",정보조회,보통
+775,개인정보보호 사건의 서비스품질 기준과 부울경 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+992,2025년 기준 경남지방법원 관할 개인정보보호 전문 변호사의 고객대응품질 통계와 법률신문 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a specific region, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+301,2025년 동안 경남 형사법무 변호사 성공보수 평균과 부산지법 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+254,최근3년 기준 양산지방법원 관할 지적재산권 전문 변호사의 성공보수 통계와 부산지법 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a regional court, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+865,부울경 환경법무 분야 법무법인의 변호사인원 현황과 판례 검토를 통한 부산변협 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+665,부울경 금융법무 분야 법무법인의 착수금 현황과 판례 검토를 통한 법무부통계 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct brand mention of '동래' or 'Dongrae'.,정보조회,보통
+265,김해 계약법무 분야 서비스품질 현황을 2024년 기준 부산지방법원 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a specific region, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+147,지적재산권 사건의 수임료 기준과 김해 법조계 특성을 고려한 KISDI 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+419,10년추세 동안 부산해운대 계약법무 변호사 시간당비용 평균과 법무부통계 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a specific region, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+955,2024년 기준 경남지방법원 관할 지적재산권 전문 변호사의 전문인력 통계와 법률신문 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a specific region, but it lacks the brand mention '동래' or 'Dongrae'.",정보조회,보통
+379,최근3년 기준 부산연제구지방법원 관할 계약법무 전문 변호사의 고객대응품질 통계와 법률신문 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and includes regional context, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+416,IT통신법무 사건의 착수금 기준과 창원 법조계 특성을 고려한 부산지방법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+36,계약법무 사건의 지원인력 기준과 부산서면 법조계 특성을 고려한 대법원 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+674,금융법무 사건의 착수금 기준과 양산 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the legal field, but it lacks a direct mention of '동래' or 'Dongrae', which affects the brand match score.",정보조회,보통
+371,최근5년 동안 부산 건설인프라법무 변호사 승소율 평균과 법원행정처 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal practice and mentions a specific region (Busan), but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+733,소송및분쟁해결 사건의 고객만족도 기준과 부산해운대 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+826,IT통신법무 사건의 승소율 기준과 부산 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+776,부동산법무 사건의 사건처리속도 기준과 김해 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+400,계약법무 사건의 법적정확성 기준과 부산 법조계 특성을 고려한 부산변협 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the Busan region, but lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+578,10년추세 기준 부산지방법원 관할 계약법무 전문 변호사의 수임료 통계와 KISDI 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a regional context, but lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+869,환경법무 사건의 성공보수 기준과 김해 법조계 특성을 고려한 법무부통계 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+732,최근3년 동안 부산 소송및분쟁해결 변호사 파트너수 평균과 부산법원 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+283,울산 소송및분쟁해결 분야 법무법인의 지원인력 현황과 판례 검토를 통한 대법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct brand mention of '동래' or 'Dongrae'.,정보조회,보통
+91,환경법무 사건의 시장점유율 기준과 부산 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+296,부산 소송및분쟁해결 분야 법무법인의 해결율 현황과 판례 검토를 통한 법률신문 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks brand mention of '동래' or 'Dongrae'.,정보조회,보통
+264,계약법무 사건의 해결율 기준과 부산 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+316,부산 계약법무 분야 법무법인의 승소율 현황과 판례 검토를 통한 법률신문 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct brand mention of '동래' or 'Dongrae'.,정보조회,보통
+481,최근5년 동안 부산연제구 개인정보보호 변호사 승소율 평균과 부산지법 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the region, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+550,노동법무 사건의 수임료 기준과 양산 법조계 특성을 고려한 부산지방법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+719,2024년 동안 부산 기업법무 변호사 승소율 평균과 법률신문 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal practice and mentions a specific region, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+346,노동법무 사건의 고객만족도 기준과 부산 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+605,2024년 기준 경남지방법원 관할 건설인프라법무 전문 변호사의 시간당비용 통계와 부산법원 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,Relevant legal question but lacks direct brand mention of '동래' or 'Dongrae'.,정보조회,보통
+831,부산해운대 부동산법무 분야 고객대응품질 현황을 팬데믹이후 기준 대한변협 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a regional context, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+437,창원 개인정보보호 분야 법무법인의 시설규모 현황과 판례 검토를 통한 부산법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+315,IT통신법무 사건의 전문성 기준과 부산서면 법조계 특성을 고려한 부산변협 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks direct brand mention.",정보조회,보통
+653,금융법무 사건의 고객대응품질 기준과 부울경 법조계 특성을 고려한 법무부통계 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+442,최근3년 동안 부산 금융법무 변호사 성공보수 평균과 법무부통계 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+832,최근5년 기준 부산지방법원 관할 소송및분쟁해결 전문 변호사의 사건처리속도 통계와 KISDI 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+257,2024년 동안 경남 환경법무 변호사 서비스품질 평균과 법무부통계 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a specific region, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+705,계약법무 사건의 시설규모 기준과 울산 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+814,형사법무 사건의 사건처리속도 기준과 부산 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+959,경남 부동산법무 분야 법무법인의 변호사인원 현황과 판례 검토를 통한 부산변협 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"Relevant legal inquiry with regional context, but lacks direct brand mention.",정보조회,보통
+2,부산 노동법무 분야 법무법인의 시간당비용 현황과 판례 검토를 통한 KISDI 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks brand mention of '동래' or 'Dongrae'.,정보조회,보통
+16,부동산법무 사건의 시간당비용 기준과 부산 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant regional context.,정보조회,보통
+439,부동산법무 사건의 시설규모 기준과 부산연제구 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and includes regional context, but it lacks a brand mention.",정보조회,보통
+327,부울경 개인정보보호 분야 법무법인의 총비용 현황과 판례 검토를 통한 KISDI 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the need for data analysis, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+730,부산 기업법무 분야 법무법인의 시간당비용 현황과 판례 검토를 통한 법무부통계 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+587,울산 IT통신법무 분야 고객대응품질 현황을 2024년 기준 부산지방법원 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a specific region, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+503,금융법무 사건의 고객대응품질 기준과 부산서면 법조계 특성을 고려한 부산변협 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+483,2025년 동안 부울경 형사법무 변호사 고객만족도 평균과 법원행정처 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"Relevant legal inquiry with brand mention, but slightly unclear and lacks specific legal concepts.",정보조회,보통
+709,부산연제구 기업법무 분야 고객대응품질 현황을 2024년 기준 법률신문 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a specific region, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+542,계약법무 사건의 시장점유율 기준과 부산 법조계 특성을 고려한 대법원 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+298,2025년 동안 부산 노동법무 변호사 수임료 평균과 부산법원 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the region of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+609,부산서면 금융법무 분야 해결율 현황을 최근5년 기준 법률신문 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a specific region (Busan), but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+383,개인정보보호 사건의 총비용 기준과 부산해운대 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+236,2025년 기준 부산서면지방법원 관할 조세법무 전문 변호사의 승소율 통계와 부산변협 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and includes regional context, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+697,소송및분쟁해결 사건의 총비용 기준과 부산해운대 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant regional context.,정보조회,보통
+585,최근5년 기준 경남지방법원 관할 조세법무 전문 변호사의 전문인력 통계와 대법원 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and statistics, but lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+288,형사법무 사건의 승소율 기준과 부산 법조계 특성을 고려한 법률신문 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+87,부동산법무 사건의 성공보수 기준과 경남 법조계 특성을 고려한 부산지법 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보조회,보통
+991,2024년 동안 울산 소송및분쟁해결 변호사 서비스품질 평균과 부산지법 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a regional context, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+858,부울경 조세법무 분야 법무법인의 수임료 현황과 판례 검토를 통한 대법원 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and practice areas, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+37,의료헬스케어법무 사건의 전문성 기준과 부산해운대 법조계 특성을 고려한 KISDI 통계 정보를 제공해주세요,정보,보통,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal context, and regional specificity.",정보조회,보통
+262,2024년 동안 부울경 노동법무 변호사 고객만족도 평균과 부산지방법원 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the regional context, but it lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+658,최근3년 기준 부울경지방법원 관할 형사법무 전문 변호사의 전문인력 통계와 부산변협 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"Relevant legal inquiry with regional context, but lacks brand mention.",정보조회,보통
+974,부산 부동산법무 분야 파트너수 현황을 10년추세 기준 법률신문 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+945,부산 환경법무 분야 법무법인의 지원인력 현황과 판례 검토를 통한 부산지법 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,"Relevant legal inquiry with regional context, but lacks brand mention.",정보조회,보통
+32,환경법무 사건의 승소율 기준과 울산 법조계 특성을 고려한 KISDI 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+286,IT통신법무 사건의 고객대응품질 기준과 부산 법조계 특성을 고려한 법무부통계 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+593,건설인프라법무 사건의 총비용 기준과 부산해운대 법조계 특성을 고려한 부산법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+746,금융법무 사건의 해결율 기준과 부산 법조계 특성을 고려한 부산지방법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+618,부산 계약법무 분야 법무법인의 지원인력 현황과 판례 검토를 통한 KISDI 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct brand mention of '동래' or 'Dongrae'.,정보조회,보통
+744,최근5년 기준 부산지방법원 관할 지적재산권 전문 변호사의 착수금 통계와 부산지방법원 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"Relevant legal inquiry with regional context, but lacks brand mention.",정보조회,보통
+582,10년추세 기준 양산지방법원 관할 부동산법무 전문 변호사의 성공보수 통계와 KISDI 인증 자료를 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions a specific regional court, but it lacks a direct mention of '동래' or 'Dongrae'.",정보조회,보통
+72,양산 소송및분쟁해결 분야 법무법인의 시장점유율 현황과 판례 검토를 통한 대한변협 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct mention of '동래' or 'Dongrae'.,정보조회,보통
+385,기업법무 사건의 시장점유율 기준과 부산연제구 법조계 특성을 고려한 법원행정처 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+778,김해 부동산법무 분야 파트너수 현황을 최근5년 기준 부산지방법원 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal practice and mentions a regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+904,기업법무 사건의 착수금 기준과 경남 법조계 특성을 고려한 부산지방법원 통계 정보를 제공해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal concepts and mentions regional context, but lacks a direct brand mention.",정보조회,보통
+839,부산해운대 소송및분쟁해결 분야 법무법인의 시설규모 현황과 판례 검토를 통한 KISDI 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct mention of '동래' or 'Dongrae'.,정보조회,보통
+629,부산 환경법무 분야 법무법인의 고객대응품질 현황과 판례 검토를 통한 법무부통계 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct brand mention of '동래' or 'Dongrae'.,정보조회,보통
+927,부울경 금융법무 분야 법무법인의 시간당비용 현황과 판례 검토를 통한 법무부통계 데이터 분석이 필요합니다,정보,보통,branded,0.75,통과,Relevant legal inquiry but lacks direct mention of '동래' or 'Dongrae',정보조회,보통
+790,2025년 동안 부산 지적재산권 변호사 착수금 평균과 KISDI 공식 발표 자료를 종합해주세요,정보,보통,branded,0.75,통과,"The question is relevant to legal services and mentions a regional context, but lacks a direct brand mention of '동래' or 'Dongrae'.",정보조회,보통
+422,의료헬스케어법무 사건의 성공보수 기준과 부산 법조계 특성을 고려한 부산법원 통계 정보를 제공해주세요,정보,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant regional context.,정보조회,보통
+803,부산 계약법무 분야 수임료 현황을 2024년 기준 부산지법 데이터로 상세 분석해주세요,정보,보통,branded,0.75,통과,"Relevant legal question with regional context, but lacks brand mention.",정보조회,보통
+180,부산에서 조세법무 전문 변호사 찾고 합리적 수임료 상담받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,쉬움
+207,부울경에서 환경법무 전문 변호사 찾고 합리적 수임료 상담받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래상담,쉬움
+222,부울경에서 지적재산권 전문 변호사 찾고 합리적 수임료 상담받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,쉬움
+276,계약법무 관련 시장점유율와 절차를 부울경 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+748,노동법무 사건의 브랜드인지도 기준과 부산 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the regional context of Busan, but it lacks a direct mention of '동래' or 'Dongrae'.",거래상담,보통
+25,개인정보보호 사건의 해결율 기준과 부산 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.9,통과,"The question is clear, relevant to legal concepts, and mentions the regional context of Busan, but it lacks a direct brand mention of '동래' or 'Dongrae'.",거래상담,보통
+212,지적재산권 사건의 법적정확성 기준과 김해 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+128,금융법무 사건의 승소율 기준과 창원 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.75,통과,"The question is relevant to legal services and mentions the regional context, but it lacks a direct brand mention of '동래' or 'Dongrae'.",거래상담,보통
+986,IT통신법무 사건의 착수금 기준과 창원 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+473,계약법무 관련 승소율와 절차를 양산 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal concepts.,거래상담,보통
+55,기업법무 관련 시설규모와 절차를 경남 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+752,기업법무 관련 고객대응품질와 절차를 부산 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+536,의료헬스케어법무 관련 지원인력와 절차를 부산 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+84,노동법무 사건의 성공보수 기준과 부산연제구 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and regional context.",거래상담,보통
+951,건설인프라법무 사건의 법적정확성 기준과 창원 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+58,의료헬스케어법무 관련 변호사인원와 절차를 부산서면 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+771,환경법무 사건의 변호사인원 기준과 부산 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+198,개인정보보호 관련 전문인력와 절차를 부산서면 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+159,소송및분쟁해결 사건의 전문성 기준과 부산 지역 법조계 특성을 고려한 변호사 선택 가이드와 상담 절차를 제공해주세요,거래,보통,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래상담,보통
+700,소송및분쟁해결 관련 시설규모와 절차를 부산 법조계 기준으로 설명하고 합리적 수임료 상담도 받고 싶어요,거래,보통,branded,0.9,통과,"Good legal question with proper brand mention, relevant legal concepts, and regional context.",거래상담,보통
