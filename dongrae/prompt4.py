@@ -525,10 +525,11 @@ if __name__ == "__main__":
     # 선택 메뉴
     print(f"\n선택하세요:")
     print("1. 기본 샘플 생성 (10개)")
-    print("2. 대량 생성 (1000개)")
-    print("3. 사용자 지정 개수")
+    print("2. 중복 제거 모드 🔄")
+    print("3. 대량 생성 (1000개)")
+    print("4. 사용자 지정 개수")
     
-    choice = input("번호를 입력하세요 (1-3): ").strip()
+    choice = input("번호를 입력하세요 (1-4): ").strip()
     
     if choice == "1":
         samples = dongrae_system.batch_generate_samples(10)
@@ -537,11 +538,50 @@ if __name__ == "__main__":
         print("\n✅ 생성된 괄호 없는 깨끗한 프롬프트들:")
         for i, sample in enumerate(samples, 1):
             print(f"{i}. {sample['prompt']}")
-            
+    
     elif choice == "2":
+        print("\n🔄 === 중복 제거 모드 ===")
+        print("기존 프롬프트 파일을 업로드하여 중복되지 않는 프롬프트를 생성합니다.")
+        
+        # 기존 프롬프트 파일 업로드
+        existing_file = input("기존 프롬프트 파일 경로 (CSV 또는 JSON): ").strip()
+        
+        if existing_file:
+            loaded_count = dongrae_system.load_existing_prompts(existing_file)
+            if loaded_count > 0:
+                try:
+                    count = int(input("생성할 프롬프트 개수 (기본 100): ") or "100")
+                    max_attempts = int(input("프롬프트당 최대 시도 횟수 (기본 50): ") or "50")
+                except ValueError:
+                    count = 100
+                    max_attempts = 50
+                    print("잘못된 입력입니다. 기본값을 사용합니다.")
+                
+                print(f"\n🔄 중복되지 않는 {count}개 프롬프트 생성 중...")
+                samples = dongrae_system.generate_non_duplicate_batch(count, max_attempts)
+                
+                # CSV 저장
+                timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                filename = f"dongrae_non_duplicate_{timestamp}.csv"
+                dongrae_system.export_to_csv(samples, filename)
+                
+                print(f"\n🎉 === 중복 제거 모드 완료 ===")
+                print(f"📁 저장 파일: {filename}")
+                print(f"✨ 총 생성: {len(samples)}개 (중복 없음)")
+                
+                # 샘플 출력
+                print(f"\n📋 === 샘플 프롬프트 (상위 5개) ===")
+                for i, sample in enumerate(samples[:5], 1):
+                    print(f"{i}. {sample['prompt']}")
+            else:
+                print("❌ 파일 로드에 실패했습니다.")
+        else:
+            print("❌ 파일 경로를 입력해주세요.")
+            
+    elif choice == "3":
         generate_massive_clean_prompts(1000)  # ✅ 자동으로 CSV 저장
         
-    elif choice == "3":
+    elif choice == "4":
         try:
             num = int(input("생성할 개수를 입력하세요: "))
             generate_massive_clean_prompts(num)  # ✅ 자동으로 CSV 저장
