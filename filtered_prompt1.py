@@ -1,16 +1,56 @@
 import pandas as pd
+import re
 
 # CSV 파일 로드
-file_path = "remove_deduplicated_20250704_160833_without_2.csv"  # 실제 파일명으로 바꾸세요
+file_path = "dongrae_balanced_filterd_250_1.csv"  # 실제 파일명으로 바꾸세요
 df = pd.read_csv(file_path)
 
-print("📊 원본 데이터 분포:")
+print("📊 원본 데이터 정보:")
+print(f"총 행 수: {len(df)}")
+print(f"컬럼명: {list(df.columns)}")
+
+# 🔧 검수_점수 컬럼 데이터 정리
+print("\n🔧 검수_점수 컬럼 정리 중...")
+print(f"검수_점수 데이터 타입: {df['검수_점수'].dtype}")
+print(f"검수_점수 샘플 값 (처음 3개):")
+for i in range(min(3, len(df))):
+    print(f"  {i+1}. '{df['검수_점수'].iloc[i]}'")
+
+# 문자열에서 첫 번째 숫자 추출
+def extract_first_score(score_str):
+    """문자열에서 첫 번째 점수 추출"""
+    if pd.isna(score_str):
+        return 1.0  # 기본값
+    
+    # 문자열로 변환
+    score_str = str(score_str)
+    
+    # 첫 번째 숫자 패턴 찾기 (소수점 포함)
+    match = re.search(r'(\d+\.?\d*)', score_str)
+    if match:
+        try:
+            return float(match.group(1))
+        except ValueError:
+            return 1.0
+    else:
+        return 1.0
+
+# 검수_점수 정리
+df['검수_점수_원본'] = df['검수_점수'].copy()  # 원본 백업
+df['검수_점수'] = df['검수_점수'].apply(extract_first_score)
+
+print(f"\n✅ 검수_점수 정리 완료!")
+print(f"정리 후 데이터 타입: {df['검수_점수'].dtype}")
+print(f"정리 후 샘플 값: {df['검수_점수'].head().tolist()}")
+print(f"점수 범위: {df['검수_점수'].min():.2f} ~ {df['검수_점수'].max():.2f}")
+
+# 원본 분포 확인
+print("\n📊 원본 데이터 분포:")
 distribution = df.groupby(['추출된_의도', '추출된_난이도']).size()
 print(distribution)
 print(f"총 원본 데이터: {len(df)}개\n")
 
 # 250개 기준으로 조정된 목표 개수
-# 500개 기준 비율을 250개로 절반 조정
 keep_counts = {
     # 정보 의도 (500개 기준 400개 → 250개 기준 200개)
     ("정보", "쉬움"): 67,    # 134 → 67
@@ -57,7 +97,10 @@ for (intent, level), target_count in keep_counts.items():
         actual_counts[(intent, level)] = actual_count
         
         avg_score = sampled['검수_점수'].mean()
-        print(f"  {intent} - {level}: {actual_count}개 추출 (목표: {target_count}, 가용: {available_count}, 평균점수: {avg_score:.2f})")
+        min_score = sampled['검수_점수'].min()
+        max_score = sampled['검수_점수'].max()
+        print(f"  {intent} - {level}: {actual_count}개 추출 (목표: {target_count}, 가용: {available_count})")
+        print(f"    점수 범위: {min_score:.2f} ~ {max_score:.2f} (평균: {avg_score:.2f})")
     else:
         actual_counts[(intent, level)] = 0
         print(f"  {intent} - {level}: 0개 추출 (데이터 없음)")
@@ -125,7 +168,7 @@ if final_count > 250:
     final_count = 250
 
 # 최종 저장
-output_file = "balanced_250_withoutDongrae_3.csv"
+output_file = "balanced_250_Dongrae_2.csv"
 filtered_df.to_csv(output_file, index=False, encoding='utf-8-sig')
 
 print(f"\n✅ 필터링 완료!")
@@ -145,3 +188,7 @@ print(f"최고 점수: {filtered_df['검수_점수'].max():.2f}")
 print(f"최저 점수: {filtered_df['검수_점수'].min():.2f}")
 print(f"점수 분포:")
 print(filtered_df['검수_점수'].value_counts().sort_index(ascending=False))
+
+print(f"\n🔧 데이터 정리 정보:")
+print(f"원본 검수_점수는 '검수_점수_원본' 컬럼에 백업되었습니다.")
+print(f"정리된 검수_점수로 필터링이 완료되었습니다.")

@@ -1,0 +1,5 @@
+﻿원본_행,질문,추출된_의도,추출된_난이도,추출된_버킷타입,검수_점수,검수_통과,검수_사유,원본_의도,원본_난이도
+6,부산 부산에서 조세법무 전문 변호사 찾고 있어요,정보,쉬움,unbranded,0.75,통과,"The question is clear and relevant to legal services, but it does not mention the brand 'Dongrae' and lacks specific legal concepts.",정보,쉬움
+63,부산 동남권에서 금융법무 전문 변호사 찾고 있어요,탐색,쉬움,unbranded,0.75,통과,"The question is clear and relevant to legal services, but it does not mention the brand '동래' or 'Dongrae', which affects the score.",탐색,쉬움
+42,부산 연제구에서 조세법무 전문 변호사 찾고 있어요,탐색,쉬움,unbranded,0.75,통과,"The question is clear and relevant to legal services, but it does not mention the brand 'Dongrae'.",탐색,쉬움
+63,부산 동남권에서 금융법무 전문 변호사 찾고 있어요,탐색,쉬움,unbranded,0.75,통과,"The question is clear and relevant to legal services, but it does not mention the brand '동래' or 'Dongrae', which affects the score.",탐색,쉬움

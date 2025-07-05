@@ -1,7 +1,7 @@
 import pandas as pd
 
 # CSV 파일 로드
-file_path = "dongrae_balanced_filtered_250plus.csv"  # 실제 파일명으로 바꾸세요
+file_path = "dongrae_통과_질문_필터링결과(4).csv"  # 실제 파일명으로 바꾸세요
 df = pd.read_csv(file_path)
 
 print("📊 원본 데이터 분포:")
@@ -116,7 +116,7 @@ if final_count > 250:
     final_count = 250
 
 # 최종 저장
-output_file = "dongrae_balanced_filterd_250_2.csv"
+output_file = "dongrae_balanced_filterd_250_3.csv"
 filtered_df.to_csv(output_file, index=False, encoding='utf-8-sig')
 
 print(f"\n✅ 필터링 완료!")
