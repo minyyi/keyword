@@ -1,0 +1,201 @@
+﻿원본_행,질문,추출된_의도,추출된_난이도,추출된_버킷타입,검수_점수,검수_통과,검수_사유,원본_의도,원본_난이도
+2,동래 로펌 노동법무 수임료는 어느 정도인가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+3,부산 개인정보 전문 동래 로펌 평판은 어떤가요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention and regional context.,정보,쉬움
+4,부산 의료헬스케어 전문 동래 로펌 평판은 어떤가요?,정보,쉬움,branded,0.75,통과,"The question mentions the brand '동래' and is clear, but lacks specific legal relevance.",정보,쉬움
+5,행정법 초기 대응 동래 법률사무소 도움받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+6,부산 부산에서 조세법무 전문 변호사 찾고 있어요,정보,쉬움,unbranded,0.75,통과,"The question is clear and relevant to legal services, but it does not mention the brand 'Dongrae' and lacks specific legal concepts.",정보,쉬움
+7,행정법 관련 동래 법률사무소 상담 가능한가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+8,조세법무 관련 동래 법률사무소 상담 가능한가요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+9,부산 노동법무 전문 동래 로펌 평판은 어떤가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention and regional context.,거래,쉬움
+10,부산 환경 전문 동래 로펌 평판은 어떤가요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention and regional context.,정보,쉬움
+11,부산 IT통신 전문 동래 로펌 평판은 어떤가요?,정보,쉬움,branded,0.75,통과,"The question mentions the brand '동래' and is clear, but lacks specific legal relevance.",정보,쉬움
+12,동래 로펌 개인정보 수임료는 어느 정도인가요?,정보,쉬움,branded,0.75,통과,"The question mentions the brand '동래', is clear, and falls within the appropriate length, but lacks specific legal relevance.",정보,쉬움
+13,노동법무 관련 동래 법률사무소 상담 가능한가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+14,회생법 사건으로 동래 법률사무소 방문 예약하고 싶어요,정보,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear intent, and relevant legal context.",정보,쉬움
+15,국제법 초기 대응 동래 법률사무소 도움받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+16,해운대 거주자인데 동래 로펌 국제법 상담 받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant context.,정보,쉬움
+17,부산지방법원 계약법무 소송 동래 로펌 도움받을 수 있나요?,정보,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal context, and clear language.",정보,쉬움
+18,지적재산권 사건으로 동래 법률사무소 방문 예약하고 싶어요,거래,쉬움,branded,0.95,통과,"The question includes a brand mention, is within the appropriate length, is legally relevant, and is clear in Korean.",거래,쉬움
+19,기장군 거주자인데 동래 로펌 건설인프라 상담 받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+20,조세법무 사건으로 동래 법률사무소 방문 예약하고 싶어요,거래,쉬움,branded,0.95,통과,"The question clearly mentions the brand '동래', is within the appropriate length, relates to a legal practice area (tax law), and is clear and natural in Korean.",거래,쉬움
+21,동래 법률사무소 형사법무 변호사 경력이 궁금해요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+22,동래 로펌 기업법무 수임료는 어느 정도인가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+23,부산 형사법무 전문 동래 로펌 평판은 어떤가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+24,계약법무 초기 대응 동래 법률사무소 도움받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+25,동래 법률사무소 국제법 관련 무료상담 있나요?,거래,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear intent, and relevant legal context.",거래,쉬움
+26,동래 법률사무소 계약법무 변호사 경력이 궁금해요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+27,동남권 거주자인데 동래 로펌 개인정보 상담 받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+28,형사법무 초기 대응 동래 법률사무소 도움받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+29,부산지방법원 건설인프라 소송 동래 로펌 도움받을 수 있나요?,탐색,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal context, and regional specificity.",탐색,쉬움
+30,동래 로펌 행정법 수임료는 어느 정도인가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래,쉬움
+31,동래 법률사무소 형사법무 관련 무료상담 있나요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+32,가족법 초기 대응 동래 법률사무소 도움받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+33,해운대 거주자인데 동래 로펌 노동법무 상담 받고 싶어요,탐색,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, clear intent, and regional context.",탐색,쉬움
+34,동래 로펌 회생법 수임료는 어느 정도인가요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+35,금융법무 사건으로 동래 법률사무소 방문 예약하고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+36,동래 법률사무소 증권법 변호사 경력이 궁금해요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+37,경상남도 거주자인데 동래 로펌 지적재산권 상담 받고 싶어요,탐색,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, clear intent, and regional context.",탐색,쉬움
+38,서면 거주자인데 동래 로펌 국제법 상담 받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+39,가족법 사건으로 동래 법률사무소 방문 예약하고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+40,건설인프라 관련 동래 법률사무소 상담 가능한가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+41,동래 법률사무소 개인정보 변호사 경력이 궁금해요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+42,부산 연제구에서 조세법무 전문 변호사 찾고 있어요,탐색,쉬움,unbranded,0.75,통과,"The question is clear and relevant to legal services, but it does not mention the brand 'Dongrae'.",탐색,쉬움
+43,부동산법무 관련 동래 법률사무소 상담 가능한가요?,거래,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear intent, and relevant legal context.",거래,쉬움
+44,금융법무 초기 대응 동래 법률사무소 도움받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+45,부동산법무 초기 대응 동래 법률사무소 도움받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+46,남포동 거주자인데 동래 로펌 건설인프라 상담 받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+47,부산 증권법 전문 동래 로펌 평판은 어떤가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention and regional context.,탐색,쉬움
+48,동래 법률사무소 국제법 변호사 경력이 궁금해요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+49,부산지방법원 헌법 소송 동래 로펌 도움받을 수 있나요?,탐색,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear language, and relevant regional context.",탐색,쉬움
+50,지적재산권 관련 동래 법률사무소 상담 가능한가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+51,동래 법률사무소 기업법무 관련 무료상담 있나요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+52,부산 회생법 전문 동래 로펌 평판은 어떤가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant regional context.,거래,쉬움
+53,부산지방법원 금융법무 소송 동래 로펌 도움받을 수 있나요?,거래,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, clear context, and relevant to the regional area.",거래,쉬움
+54,동래 법률사무소 개인정보 관련 무료상담 있나요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+55,서면 거주자인데 동래 로펌 기업법무 상담 받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+56,국제법 관련 동래 법률사무소 상담 가능한가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+57,부산 건설인프라 전문 동래 로펌 평판은 어떤가요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention and regional context.,정보,쉬움
+58,부산 계약법무 전문 동래 로펌 평판은 어떤가요?,거래,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal context, and regional specificity.",거래,쉬움
+59,기업법무 초기 대응 동래 법률사무소 도움받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+60,동래 법률사무소 조세법무 관련 무료상담 있나요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+61,부산 국제법 전문 동래 로펌 평판은 어떤가요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+62,센텀시티 거주자인데 동래 로펌 가족법 상담 받고 싶어요,거래,쉬움,branded,0.9,통과,"Good legal question with proper brand mention, relevant legal context, and clear language.",거래,쉬움
+63,부산 동남권에서 금융법무 전문 변호사 찾고 있어요,탐색,쉬움,unbranded,0.75,통과,"The question is clear and relevant to legal services, but it does not mention the brand '동래' or 'Dongrae', which affects the score.",탐색,쉬움
+64,동래 로펌 IT통신 수임료는 어느 정도인가요?,정보,쉬움,branded,0.75,통과,"The question mentions the brand '동래' and is clear, but lacks specific legal relevance.",정보,쉬움
+65,서면 거주자인데 동래 로펌 개인정보 상담 받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+66,노동법무 사건으로 동래 법률사무소 방문 예약하고 싶어요,정보,쉬움,branded,0.95,통과,Clear and relevant legal question with proper brand mention and intent to schedule a visit.,정보,쉬움
+67,동래 법률사무소 지적재산권 관련 무료상담 있나요?,탐색,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear intent, and relevant legal context.",탐색,쉬움
+68,국제법 사건으로 동래 법률사무소 방문 예약하고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+69,회생법 관련 동래 법률사무소 상담 가능한가요?,정보,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear language, and relevant legal context.",정보,쉬움
+70,기업법무 사건으로 동래 법률사무소 방문 예약하고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+71,경상남도 거주자인데 동래 로펌 건설인프라 상담 받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+72,동래 로펌 증권법 수임료는 어느 정도인가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+73,동래 법률사무소 헌법 변호사 경력이 궁금해요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+74,수영구 거주자인데 동래 로펌 개인정보 상담 받고 싶어요,정보,쉬움,branded,0.75,통과,"The question mentions the brand '동래' and is clear, but lacks specific legal concepts or scenarios.",정보,쉬움
+75,부산지방법원 형사법무 소송 동래 로펌 도움받을 수 있나요?,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant regional context.,정보,쉬움
+76,동래 로펌 금융법무 수임료는 어느 정도인가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+77,IT통신 사건으로 동래 법률사무소 방문 예약하고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+78,의료헬스케어 초기 대응 동래 법률사무소 도움받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+79,부산지방법원 가족법 소송 동래 로펌 도움받을 수 있나요?,정보,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear language, and relevant regional context.",정보,쉬움
+80,동래 법률사무소 회생법 관련 무료상담 있나요?,탐색,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear intent, and relevant legal context.",탐색,쉬움
+81,부산 조세법무 전문 동래 로펌 평판은 어떤가요?,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention and regional context.,거래,쉬움
+82,동래 법률사무소 부동산법무 변호사 경력이 궁금해요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+83,부산 지적재산권 전문 동래 로펌 평판은 어떤가요?,거래,쉬움,branded,0.9,통과,"The question includes the brand '동래', is within the appropriate length, is legally relevant to intellectual property, and mentions the regional context of Busan.",거래,쉬움
+84,부산지방법원 노동법무 소송 동래 로펌 도움받을 수 있나요?,거래,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, clear context, and relevant legal terminology.",거래,쉬움
+85,금융법무 관련 동래 법률사무소 상담 가능한가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+86,경상남도 거주자인데 동래 로펌 조세법무 상담 받고 싶어요,거래,쉬움,branded,0.95,통과,"Excellent legal question with proper brand mention, clear intent, and relevant regional context.",거래,쉬움
+87,서면 거주자인데 동래 로펌 소송분쟁해결 상담 받고 싶어요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+88,연제구 거주자인데 동래 로펌 환경 상담 받고 싶어요,정보,쉬움,branded,0.75,통과,"The question mentions the brand '동래' and is clear, but lacks specific legal concepts or scenarios.",정보,쉬움
+89,동래 법률사무소 금융법무 변호사 경력이 궁금해요,거래,쉬움,branded,0.85,통과,Good legal question with proper brand mention,거래,쉬움
+90,헌법 사건으로 동래 법률사무소 방문 예약하고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+91,증권법 사건으로 동래 법률사무소 방문 예약하고 싶어요,탐색,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear intent, and relevant legal context.",탐색,쉬움
+92,동래 법률사무소 상속법 변호사 경력이 궁금해요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+93,개인정보 초기 대응 동래 법률사무소 도움받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+94,부산 보험법 전문 동래 로펌 평판은 어떤가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention and relevant regional context.,탐색,쉬움
+95,양산시 거주자인데 동래 로펌 의료헬스케어 상담 받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention and clear intent.,탐색,쉬움
+96,부산지방법원 기업법무 소송 동래 로펌 도움받을 수 있나요?,거래,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear intent, and relevant regional context.",거래,쉬움
+97,부산지방법원 부동산법무 소송 동래 로펌 도움받을 수 있나요?,정보,쉬움,branded,1.0,통과,"Excellent legal question with proper brand mention, clear language, and relevant regional context.",정보,쉬움
+98,동래 로펌 의료헬스케어 수임료는 어느 정도인가요?,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+99,헌법 초기 대응 동래 법률사무소 도움받고 싶어요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+100,동래 법률사무소 회생법 변호사 경력이 궁금해요,정보,쉬움,branded,0.85,통과,Good legal question with proper brand mention,정보,쉬움
+101,경남 거주자인데 동래 로펌 헌법 상담 받고 싶어요,탐색,쉬움,branded,0.85,통과,Good legal question with proper brand mention,탐색,쉬움
+102,상속법 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 부산시 특화 솔루션과 시간 단축 ROI 분석,정보,어려움,branded,0.9,통과,"The question includes a brand mention, is legally relevant, and has regional context, though it is slightly longer than the ideal length.",정보,어려움
+103,부산 기반 글로벌 금융법무 프로젝트에서 동래 법률사무소의 경쟁력과 시간 단축 최적화 전략은?,거래,어려움,branded,0.9,통과,"Well-structured question with brand mention, legal relevance, and regional context.",거래,어려움
+104,동래 법률사무소의 건설인프라 전문성을 서면 지역 신뢰도와 연계하여 종합적으로 분석해주세요,탐색,어려움,branded,0.9,통과,"The question contains the brand '동래', is within the appropriate length, discusses legal relevance in construction infrastructure, and is clear in Korean.",탐색,어려움
+105,부산지방법원 복합 상속법 사건에서 동래 법률사무소의 다학제적 접근법과 전문성 효율성 평가,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+106,부산지방법원 개인정보 관련 최근 5년간 판례 동향을 동래 로펌의 부산 대표 로펌 관점에서 평가해주세요,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+107,부산지방법원 증권법 관련 최근 5년간 판례 동향을 동래 로펌의 신뢰할 수 있는 관점에서 평가해주세요,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",탐색,어려움
+108,기장군 기반 글로벌 의료헬스케어 프로젝트에서 동래 법률사무소의 경쟁력과 편의성 최적화 전략은?,거래,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래,어려움
+109,부동산법무 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 거제동 특화 솔루션과 투명성 ROI 분석,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+110,부산 남포동 메가프로젝트 관련 회생법 통합 자문에서 동래 로펌의 실무진 활용 극대화 전략,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+111,부산지방법원 복합 IT통신 사건에서 동래 법률사무소의 다학제적 접근법과 투명성 효율성 평가,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",거래,어려움
+112,부산 경남 메가프로젝트 관련 계약법무 통합 자문에서 동래 로펌의 노하우 활용 극대화 전략,거래,어려움,branded,0.9,통과,"Strong legal relevance with brand mention, clear context, and appropriate length.",거래,어려움
+113,동래 법률사무소의 계약법무 전문성을 경남 지역 만족도와 연계하여 종합적으로 분석해주세요,거래,어려움,branded,0.95,통과,"The question includes the brand '동래', is within the appropriate length, addresses legal concepts related to contract law, and has regional context related to 경남. It is also clear and natural in Korean.",거래,어려움
+114,회생법 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 경남 특화 솔루션과 편의성 ROI 분석,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+115,부산지방법원 회생법 관련 최근 5년간 판례 동향을 동래 로펌의 Busan Legal First-Mover 관점에서 평가해주세요,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",탐색,어려움
+116,동래 법률사무소의 AI 기반 회생법 솔루션이 영남권 기업들의 만족도 혁신에 미치는 영향 분석,거래,어려움,branded,1.0,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",거래,어려움
+117,센텀시티 지역 소송분쟁해결 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 신뢰도 향상 방안,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear regional context.",탐색,어려움
+118,상속법 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 동남권 특화 솔루션과 편의성 ROI 분석,탐색,어려움,branded,0.9,통과,"The question contains a brand mention, is legally relevant, and discusses a specific regional context, though it is slightly longer than the ideal length.",탐색,어려움
+119,연제구 지역 부동산법무 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 편의성 향상 방안,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear regional context.",거래,어려움
+120,해운대 지역 부동산법무 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 안정성 향상 방안,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear regional context.",탐색,어려움
+121,영남권 지역 가족법 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 혁신성 향상 방안,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",거래,어려움
+122,부산지방법원 의료헬스케어 관련 최근 5년간 판례 동향을 동래 로펌의 합리적 수임료 관점에서 평가해주세요,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+123,부산지방법원 건설인프라 관련 최근 5년간 판례 동향을 동래 로펌의 영남권 최고 관점에서 평가해주세요,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",거래,어려움
+124,동래 로펌의 실무진 기반 상속법 크로스보더 거래에서 서면 허브 역할과 글로컬 차별화 최적화,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+125,동래 로펌의 전문가 그룹 기반 조세법무 크로스보더 거래에서 동남권 허브 역할과 글로컬 차별화 최적화,거래,어려움,branded,0.9,통과,"Strong legal relevance and brand mention, clear and natural Korean, but slightly long.",거래,어려움
+126,동래 법률사무소의 AI 기반 증권법 솔루션이 기장군 기업들의 비용 효율성 혁신에 미치는 영향 분석,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",탐색,어려움
+127,법조단지 기반 글로벌 의료헬스케어 프로젝트에서 동래 법률사무소의 경쟁력과 혁신성 최적화 전략은?,정보,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보,어려움
+128,부동산법무 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 연제구 특화 솔루션과 성공률 ROI 분석,거래,어려움,branded,0.9,통과,"Strong legal relevance with brand mention, clear and specific to the regional context.",거래,어려움
+129,동래 로펌의 30년 업력를 활용한 IT통신 분야 디지털 혁신이 거제동 법무시장에 미치는 파급효과 분석,정보,어려움,branded,0.9,통과,"The question contains the brand '동래', is relevant to legal concepts, and discusses a specific regional context.",정보,어려움
+130,동래 법률사무소의 AI 기반 부동산법무 솔루션이 부산 기업들의 편의성 혁신에 미치는 영향 분석,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",탐색,어려움
+131,동래 법률사무소의 소송분쟁해결 전문성을 경남 지역 차별화와 연계하여 종합적으로 분석해주세요,거래,어려움,branded,0.95,통과,"The question contains the brand '동래', is within the appropriate length, discusses legal expertise, and includes regional context.",거래,어려움
+132,동래 로펌의 신뢰할 수 있는 기반 형사법무 크로스보더 거래에서 거제동 허브 역할과 글로컬 투명성 최적화,거래,어려움,branded,0.9,통과,"The question contains the brand '동래', is within the appropriate length, mentions legal concepts, and is clear in Korean.",거래,어려움
+133,동래 로펌의 노하우 기반 의료헬스케어 크로스보더 거래에서 부산 허브 역할과 글로컬 접근성 최적화,탐색,어려움,branded,0.75,통과,"The question contains the brand '동래', is relevant to legal concepts, and mentions Busan, but is slightly unclear and overly complex.",탐색,어려움
+134,형사법무 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 남포동 특화 솔루션과 편의성 ROI 분석,정보,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and regional context.",정보,어려움
+135,동래 법률사무소의 AI 기반 부동산법무 솔루션이 기장군 기업들의 안정성 혁신에 미치는 영향 분석,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+136,동래구 지역 헌법 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 안정성 향상 방안,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+137,동래 로펌의 노하우 기반 보험법 크로스보더 거래에서 부산 허브 역할과 글로컬 신뢰도 최적화,정보,어려움,branded,0.9,통과,"The question contains the brand '동래', is within the appropriate length, discusses legal concepts related to insurance law and cross-border transactions, mentions Busan for regional context, and is clear in Korean.",정보,어려움
+138,노동법무 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 센텀시티 특화 솔루션과 만족도 ROI 분석,정보,어려움,branded,0.9,통과,"The question includes a brand mention, is within the appropriate length, addresses legal concepts, and is clear in Korean.",정보,어려움
+139,법조단지 기반 글로벌 보험법 프로젝트에서 동래 법률사무소의 경쟁력과 접근성 최적화 전략은?,거래,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래,어려움
+140,동래 법률사무소의 의료헬스케어 전문성을 수영구 지역 신뢰도와 연계하여 종합적으로 분석해주세요,거래,어려움,branded,0.9,통과,"The question effectively mentions the brand '동래', is within the appropriate length, addresses legal relevance in healthcare, and includes regional context with '수영구'. Clarity is also maintained.",거래,어려움
+141,법조단지 기반 글로벌 행정법 프로젝트에서 동래 법률사무소의 경쟁력과 안정성 최적화 전략은?,정보,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,정보,어려움
+142,동남권 지역 국제법 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 전문성 향상 방안,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+143,동래 법률사무소의 증권법 전문성을 남포동 지역 접근성와 연계하여 종합적으로 분석해주세요,정보,어려움,branded,0.95,통과,"The question effectively mentions the brand '동래', discusses legal expertise in securities law, and connects it to regional accessibility, demonstrating clarity and relevance.",정보,어려움
+144,연제구 지역 조세법무 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 접근성 향상 방안,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+145,부산지방법원 가족법 관련 최근 5년간 판례 동향을 동래 로펌의 노하우 관점에서 평가해주세요,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+146,기장군 지역 기업법무 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 만족도 향상 방안,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear regional context.",탐색,어려움
+147,남포동 기반 글로벌 가족법 프로젝트에서 동래 법률사무소의 경쟁력과 시간 단축 최적화 전략은?,탐색,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,탐색,어려움
+148,동래 법률사무소의 AI 기반 지적재산권 솔루션이 동래구 기업들의 편의성 혁신에 미치는 영향 분석,정보,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and clear language.",정보,어려움
+149,동래 로펌의 법률 파트너를 활용한 형사법무 분야 디지털 혁신이 부산지방법원 법무시장에 미치는 파급효과 분석,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+150,지적재산권 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 센텀시티 특화 솔루션과 접근성 ROI 분석,정보,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and clear language.",정보,어려움
+151,개인정보 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 경상남도 특화 솔루션과 접근성 ROI 분석,정보,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and regional context.",정보,어려움
+152,부산지방법원 복합 계약법무 사건에서 동래 법률사무소의 다학제적 접근법과 성공률 효율성 평가,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",탐색,어려움
+153,부산 해운대 메가프로젝트 관련 기업법무 통합 자문에서 동래 로펌의 신뢰할 수 있는 활용 극대화 전략,거래,어려움,branded,0.9,통과,"Strong legal relevance with brand mention and regional context, clear and concise.",거래,어려움
+154,동래 법률사무소의 보험법 전문성을 부산 지역 시간 단축와 연계하여 종합적으로 분석해주세요,탐색,어려움,branded,0.9,통과,"Well-structured question with brand mention, legal relevance, and regional context.",탐색,어려움
+155,부산지방법원 조세법무 관련 최근 5년간 판례 동향을 동래 로펌의 30년 업력 관점에서 평가해주세요,거래,어려움,branded,0.95,통과,"The question includes a brand mention, is within the appropriate length, discusses legal concepts relevant to tax law, and has a regional context related to Busan.",거래,어려움
+156,경상남도 기반 글로벌 의료헬스케어 프로젝트에서 동래 법률사무소의 경쟁력과 차별화 최적화 전략은?,거래,어려움,branded,0.9,통과,"Well-structured question with brand mention, legal relevance, and clear context.",거래,어려움
+157,동래 로펌의 신뢰할 수 있는를 활용한 보험법 분야 디지털 혁신이 영남권 법무시장에 미치는 파급효과 분석,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",거래,어려움
+158,동래 로펌의 영남권 최고를 활용한 국제법 분야 디지털 혁신이 영남권 법무시장에 미치는 파급효과 분석,탐색,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and regional context.",탐색,어려움
+159,부산 동래구 메가프로젝트 관련 환경 통합 자문에서 동래 로펌의 30년 업력 활용 극대화 전략,탐색,어려움,branded,0.9,통과,"The question includes the brand '동래', is within the appropriate length, addresses a legal context related to environmental consulting, and mentions the regional context of Busan.",탐색,어려움
+160,양산시 기반 글로벌 환경 프로젝트에서 동래 법률사무소의 경쟁력과 안정성 최적화 전략은?,정보,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant context.,정보,어려움
+161,동래구 지역 행정법 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 만족도 향상 방안,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",탐색,어려움
+162,동래 법률사무소의 AI 기반 개인정보 솔루션이 수영구 기업들의 신뢰도 혁신에 미치는 영향 분석,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal context, and clear language.",정보,어려움
+163,동래 로펌의 부산 대표 로펌 기반 건설인프라 크로스보더 거래에서 서면 허브 역할과 글로컬 투명성 최적화,탐색,어려움,branded,0.9,통과,"Strong legal relevance with brand mention and regional context, though slightly complex in clarity.",탐색,어려움
+164,부산지방법원 복합 소송분쟁해결 사건에서 동래 법률사무소의 다학제적 접근법과 접근성 효율성 평가,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",거래,어려움
+165,동래 법률사무소의 노동법무 전문성을 센텀시티 지역 전문성와 연계하여 종합적으로 분석해주세요,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",탐색,어려움
+166,경상남도 기반 글로벌 형사법무 프로젝트에서 동래 법률사무소의 경쟁력과 혁신성 최적화 전략은?,거래,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래,어려움
+167,영남권 기반 글로벌 환경 프로젝트에서 동래 법률사무소의 경쟁력과 만족도 최적화 전략은?,거래,어려움,branded,0.9,통과,"Well-structured question with brand mention, legal relevance, and regional context.",거래,어려움
+168,부산지방법원 복합 계약법무 사건에서 동래 법률사무소의 다학제적 접근법과 시간 단축 효율성 평가,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",거래,어려움
+169,경상남도 지역 행정법 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 신뢰도 향상 방안,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+170,부산 부산 메가프로젝트 관련 국제법 통합 자문에서 동래 로펌의 전문가 그룹 활용 극대화 전략,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal context, and regional specificity.",정보,어려움
+171,동래 법률사무소의 AI 기반 기업법무 솔루션이 동래구 기업들의 혁신성 혁신에 미치는 영향 분석,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",탐색,어려움
+172,부산 부산지방법원 메가프로젝트 관련 국제법 통합 자문에서 동래 로펌의 합리적 수임료 활용 극대화 전략,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",거래,어려움
+173,부산지방법원 복합 증권법 사건에서 동래 법률사무소의 다학제적 접근법과 안정성 효율성 평가,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and regional context.",정보,어려움
+174,동래 법률사무소의 회생법 전문성을 수영구 지역 시간 단축와 연계하여 종합적으로 분석해주세요,거래,어려움,branded,0.9,통과,"Well-structured question with brand mention, legal relevance, and regional context.",거래,어려움
+175,수영구 지역 회생법 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 시간 단축 향상 방안,탐색,어려움,branded,0.95,통과,"Excellent legal relevance and brand mention, clear and natural Korean, and includes regional context.",탐색,어려움
+176,동래 로펌의 실무진를 활용한 IT통신 분야 디지털 혁신이 수영구 법무시장에 미치는 파급효과 분석,정보,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal context, and regional focus.",정보,어려움
+177,동래 법률사무소의 의료헬스케어 전문성을 해운대 지역 성공률와 연계하여 종합적으로 분석해주세요,거래,어려움,branded,0.9,통과,"Well-structured question with brand mention, legal relevance, and regional context.",거래,어려움
+178,서면 기반 글로벌 건설인프라 프로젝트에서 동래 법률사무소의 경쟁력과 만족도 최적화 전략은?,거래,어려움,branded,0.85,통과,Good legal question with proper brand mention and relevant legal context.,거래,어려움
+179,법조단지 지역 개인정보 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 편의성 향상 방안,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",거래,어려움
+180,기업법무 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 해운대 특화 솔루션과 투명성 ROI 분석,정보,어려움,branded,0.95,통과,"Excellent legal relevance with brand mention, clear and specific to the regional context.",정보,어려움
+181,IT통신 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 해운대 특화 솔루션과 안정성 ROI 분석,거래,어려움,branded,0.9,통과,"The question includes a brand mention, is within the appropriate length, addresses legal relevance, and has regional context related to Busan, while also being clear in Korean.",거래,어려움
+182,형사법무 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 동남권 특화 솔루션과 성공률 ROI 분석,정보,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and regional context.",정보,어려움
+183,동래 로펌의 Busan Legal First-Mover를 활용한 계약법무 분야 디지털 혁신이 동남권 법무시장에 미치는 파급효과 분석,탐색,어려움,branded,0.9,통과,"Strong legal relevance, clear mention of the brand '동래', and includes regional context with 'Busan'. However, the length is slightly over the ideal range.",탐색,어려움
+184,부산 양산시 메가프로젝트 관련 환경 통합 자문에서 동래 로펌의 부산 대표 로펌 활용 극대화 전략,탐색,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal context, and regional specificity.",탐색,어려움
+185,동래 법률사무소의 AI 기반 헌법 솔루션이 동남권 기업들의 접근성 혁신에 미치는 영향 분석,탐색,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",탐색,어려움
+186,동남권 지역 의료헬스케어 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 접근성 향상 방안,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",거래,어려움
+187,동래 로펌의 원스톱를 활용한 개인정보 분야 디지털 혁신이 동남권 법무시장에 미치는 파급효과 분석,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움
+188,부산 법조단지 메가프로젝트 관련 환경 통합 자문에서 동래 로펌의 전문가 그룹 활용 극대화 전략,탐색,어려움,branded,0.95,통과,"Excellent legal relevance and brand mention, clear and specific to the regional context.",탐색,어려움
+189,동래 법률사무소의 AI 기반 소송분쟁해결 솔루션이 영남권 기업들의 비용 효율성 혁신에 미치는 영향 분석,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal context, and clear language.",정보,어려움
+190,동래 법률사무소의 AI 기반 계약법무 솔루션이 거제동 기업들의 안정성 혁신에 미치는 영향 분석,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",거래,어려움
+191,동래 로펌의 실무진 기반 개인정보 크로스보더 거래에서 동래구 허브 역할과 글로컬 편의성 최적화,거래,어려움,branded,0.9,통과,"Strong legal relevance with brand mention, clear context, and appropriate length.",거래,어려움
+192,수영구 지역 기업법무 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 편의성 향상 방안,거래,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear regional context.",거래,어려움
+193,부산시 지역 계약법무 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 안정성 향상 방안,정보,어려움,branded,1.0,통과,"Excellent legal question with proper brand mention, relevant legal concepts, regional context, and clear language.",정보,어려움
+194,동래 로펌의 합리적 수임료를 활용한 보험법 분야 디지털 혁신이 서면 법무시장에 미치는 파급효과 분석,탐색,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal concepts, and clear language.",탐색,어려움
+195,남포동 기반 글로벌 상속법 프로젝트에서 동래 법률사무소의 경쟁력과 만족도 최적화 전략은?,탐색,어려움,branded,0.9,통과,"Well-structured question with brand mention, legal relevance, and regional context.",탐색,어려움
+196,동래 법률사무소의 국제법 전문성을 기장군 지역 시간 단축와 연계하여 종합적으로 분석해주세요,거래,어려움,branded,0.9,통과,"The question includes the brand '동래', is within the appropriate length, addresses legal concepts related to international law, and has a clear context.",거래,어려움
+197,동래 로펌의 노하우를 활용한 형사법무 분야 디지털 혁신이 부산 법무시장에 미치는 파급효과 분석,정보,어려움,branded,1.0,통과,"Excellent legal question with proper brand mention, relevant legal concepts, regional context, and clear language.",정보,어려움
+198,형사법무 분야 ESG 컴플라이언스 구축 시 동래 법률사무소의 양산시 특화 솔루션과 시간 단축 ROI 분석,거래,어려움,branded,0.9,통과,"Strong legal relevance, clear intent, and proper brand mention; slightly long but still within acceptable range.",거래,어려움
+199,부산 동남권 메가프로젝트 관련 상속법 통합 자문에서 동래 로펌의 합리적 수임료 활용 극대화 전략,탐색,어려움,branded,0.9,통과,"The question includes a brand mention, is within the appropriate length, discusses legal concepts, and has regional context, while maintaining clarity.",탐색,어려움
+200,동래구 기반 글로벌 회생법 프로젝트에서 동래 법률사무소의 경쟁력과 안정성 최적화 전략은?,정보,어려움,branded,0.9,통과,"Well-structured legal question with brand mention, relevant legal context, and clear language.",정보,어려움
+201,경상남도 지역 국제법 규제 변화에 따른 동래 로펌의 선제적 대응 전략과 클라이언트 비용 효율성 향상 방안,정보,어려움,branded,0.95,통과,"Excellent legal question with proper brand mention, relevant legal concepts, and clear language.",정보,어려움

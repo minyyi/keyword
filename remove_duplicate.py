@@ -51,7 +51,7 @@ def remove_duplicate_questions(input_file, output_file=None):
     # 출력 파일명 생성
     if output_file is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = f"remove_deduplicated_{timestamp}.csv"
+        output_file = f"remove_deduplicated_{timestamp}_without_3.csv"
     
     # 정리된 파일 저장
     df_clean.to_csv(output_file, index=False, encoding='utf-8')
@@ -66,7 +66,7 @@ def remove_duplicate_questions(input_file, output_file=None):
 
 # 실행
 if __name__ == "__main__":
-    input_filename = "dongrae_clean_massive_20250702_205556(1)_검수결과(1)_통과_동래제외.csv"
+    input_filename = "remove_deduplicated_20250704_160833_without_2.csv"
     
     try:
         cleaned_df, removed_count = remove_duplicate_questions(input_filename)
